@@ -5,4 +5,13 @@ VALUES ('THE UNKNOWN ENGINEER', 120, 3.99, 1);
 INSERT INTO rental (rental_date, inventory_id, customer_id, staff_id)
 VALUES (NOW(), 10, 5, 1);
 
+-- 5 --
+
+Insert Into Actor (first_name, last_name)
+Values ('Aisha', 'Khan'), ('Omar', 'Malik'), ('Layla', 'Nur');
+
+
+
+
+
 
