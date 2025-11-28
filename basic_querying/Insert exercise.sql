@@ -10,6 +10,10 @@ VALUES (NOW(), 10, 5, 1);
 Insert Into Actor (first_name, last_name)
 Values ('Aisha', 'Khan'), ('Omar', 'Malik'), ('Layla', 'Nur');
 
+-- 6 --
+Insert Into category (name)  Values ('Machine learning');
+
+
 
 
 
