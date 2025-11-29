@@ -13,10 +13,15 @@ Values ('Aisha', 'Khan'), ('Omar', 'Malik'), ('Layla', 'Nur');
 -- 6 --
 Insert Into category (name)  Values ('Machine learning');
 
--- 8 -- 
+-- 9 -- 
 
 INSERT INTO payment (customer_id, staff_id, rental_id, amount, payment_date)
 VALUES (8, 1, 76, 5.99, NOW());
+
+-- 10 --
+Insert Into language (name)
+Values ('Uzbek');
+
 
 
 
