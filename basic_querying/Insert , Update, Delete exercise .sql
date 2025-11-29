@@ -24,6 +24,16 @@ Values ('Uzbek');
 
 
 
+-- Update exercise --
+
+-- 1 -- 
+
+UPDATE customer 
+Set email  = 'ali. karimov@example.com '
+WHERE first_name = 'Ali'
+ And last_name = 'Karimov'; 
+
+
 
 
 
