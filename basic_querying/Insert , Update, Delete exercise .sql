@@ -80,6 +80,14 @@ WHERE first_name = 'Omar' AND last_name = 'Malik';
 DELETE from payment 
 Where amount = 0.00;
 
+-- 2 --
+
+DELETE FROM customer
+WHERE customer_id NOT IN (
+    SELECT DISTINCT customer_id
+    FROM payment
+);
+
 
 
 
