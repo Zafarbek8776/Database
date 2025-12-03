@@ -94,6 +94,20 @@ WHERE customer_id NOT IN (
 DELETE FROM film 
 WHERE rental_duration = 0;
 
+-- 4 --
+
+DELETE FROM address
+WHERE address_id NOT IN (
+    SELECT address_id FROM staff
+)
+AND address_id NOT IN (
+    SELECT address_id FROM customer
+)
+AND address_id NOT IN (
+    SELECT address_id FROM store
+);
+
+
 
 
 
