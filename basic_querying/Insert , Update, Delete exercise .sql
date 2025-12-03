@@ -50,3 +50,9 @@ WHERE first_name = 'Ali'
 UPDATE film
 SET special_features = ARRAY['Deleted Scenes']
 WHERE length > 180;
+
+-- 6 --
+Update Payment 
+Set amount = amount * 0.90
+Where amount > 10.0 ;
+
