@@ -56,3 +56,10 @@ Update Payment
 Set amount = amount * 0.90
 Where amount > 10.0 ;
 
+-- 7 --
+Update Inventory 
+Set last_update = Current_Timestamp;
+
+
+
+
