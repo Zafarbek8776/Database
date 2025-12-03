@@ -38,7 +38,14 @@ WHERE first_name = 'Ali'
  Update film 
  Set rental_rate = rental_rate + 1.00
  Where length > 150;
+
+ -- 3 --
  
+ Update category 
+ Set name = 'Artifical Inteligence'
+ Where name = 'Machine Learning';
+ 
+
 
 
 
