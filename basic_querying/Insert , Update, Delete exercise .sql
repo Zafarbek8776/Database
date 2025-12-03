@@ -108,6 +108,12 @@ AND address_id NOT IN (
 );
 
 
+-- 5 -- 
+
+
+DELETE FROM category 
+WHERE name = 'Artificial Intelligence'
+
 
 
 
