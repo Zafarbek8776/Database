@@ -60,6 +60,11 @@ Where amount > 10.0 ;
 Update Inventory 
 Set last_update = Current_Timestamp;
 
+-- 9 -- 
+
+Update film 
+Set rating = 'PG'
+where title Like '%Love';
 
 
 
