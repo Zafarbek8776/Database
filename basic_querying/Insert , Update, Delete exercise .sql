@@ -89,6 +89,12 @@ WHERE customer_id NOT IN (
 );
 
 
+-- 3 -- 
+
+DELETE FROM film 
+WHERE rental_duration = 0;
+
+
 
 
 
