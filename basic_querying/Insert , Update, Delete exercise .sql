@@ -44,13 +44,9 @@ WHERE first_name = 'Ali'
  Update category 
  Set name = 'Artifical Inteligence'
  Where name = 'Machine Learning';
- 
 
+ -- 5 --
 
-
-
-
-
-
-
-
+UPDATE film
+SET special_features = ARRAY['Deleted Scenes']
+WHERE length > 180;
