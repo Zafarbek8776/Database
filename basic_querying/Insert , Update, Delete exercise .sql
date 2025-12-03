@@ -66,5 +66,12 @@ Update film
 Set rating = 'PG'
 where title Like '%Love';
 
+-- 10 -- 
+
+UPDATE customer
+SET last_name = 'Malyk'
+WHERE first_name = 'Omar' AND last_name = 'Malik';
+
+
 
 
