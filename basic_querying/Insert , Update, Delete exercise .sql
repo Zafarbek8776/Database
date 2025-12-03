@@ -33,6 +33,13 @@ Set email  = 'ali. karimov@example.com '
 WHERE first_name = 'Ali'
  And last_name = 'Karimov'; 
 
+ -- 2 --
+
+ Update film 
+ Set rental_rate = rental_rate + 1.00
+ Where length > 150;
+ 
+
 
 
 
