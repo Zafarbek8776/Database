@@ -73,5 +73,14 @@ SET last_name = 'Malyk'
 WHERE first_name = 'Omar' AND last_name = 'Malik';
 
 
+-- Delete exercise -- 
+
+-- 1 --
+
+DELETE from payment 
+Where amount = 0.00;
+
+
+
 
 
