@@ -27,3 +27,10 @@ FROM film
 ORDER BY film_id DESC
 LIMIT 10;
 
+-- 6 --
+
+SELECT *
+from actor 
+where first_name LIKE '%a'
+Limit 5 
+
