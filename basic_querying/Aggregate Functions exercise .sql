@@ -13,4 +13,10 @@ And length < 90;
  FROM customer 
  WHERE first_name LIKE 'M%'
  OR first_name LIKE 'A%';
- 
+
+ -- 3 -- 
+
+ SELECT *
+ From film 
+ Where rating <> 'R';
+
