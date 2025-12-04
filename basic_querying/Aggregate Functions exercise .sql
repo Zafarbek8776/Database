@@ -40,5 +40,13 @@ SELECT *
 from staff 
 WHERE email Like '%@sakilacustomer.org%';
 
+-- 8 --
+
+SELECT *
+from payment 
+where amount > 5.00
+AND amount < 10.00;
+
+
 
 
