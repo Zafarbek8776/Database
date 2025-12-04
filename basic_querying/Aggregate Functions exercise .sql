@@ -20,3 +20,10 @@ And length < 90;
  From film 
  Where rating <> 'R';
 
+ -- 5 -- 
+
+SELECT *
+FROM film
+ORDER BY film_id DESC
+LIMIT 10;
+
