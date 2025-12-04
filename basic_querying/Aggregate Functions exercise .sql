@@ -34,3 +34,11 @@ from actor
 where first_name LIKE '%a'
 Limit 5 
 
+-- 7 -- 
+
+SELECT *
+from staff 
+WHERE email Like '%@sakilacustomer.org%';
+
+
+
