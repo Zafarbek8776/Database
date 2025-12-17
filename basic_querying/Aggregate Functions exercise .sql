@@ -50,3 +50,10 @@ AND amount < 10.00;
 
 
 
+-- 9 -- 
+
+Select title, length
+from film 
+where title LIKE '%Action%'
+Order by length ASC
+Limit 10;
