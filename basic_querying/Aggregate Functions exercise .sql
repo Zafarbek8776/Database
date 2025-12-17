@@ -57,3 +57,20 @@ from film
 where title LIKE '%Action%'
 Order by length ASC
 Limit 10;
+
+
+-- 11 -- 
+
+
+SELECT *
+FROM film
+WHERE release_year > 2005
+AND rating IN ('PG', 'G');
+
+
+
+
+
+
+
+
